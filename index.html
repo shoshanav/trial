@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css"  href="CSS-1.css" />
+         <script src="http://code.jquery.com/jquery-latest.min.js"
+        type="text/javascript"></script>
+    <script type="text/javascript" src="JavaScript-1.js"></script>
+
+</head>
+
+<body>
+
+<header>
+    <div id="header">
+        <div id="fierstheaderdiv">
+            <nav>
+                <ul id="firstnav">
+                    <li><a>Contuct us</a></li>
+                    <li><a>Support</a></li>
+                    <li id="lastli"><a>Login</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul id="secondnav">
+                    <li><a>Publishers</a></li>
+                    <li><a>Bloggers</a></li>
+                    <li><a>How it works</a></li>
+                    <li><a>Our tools</a></li>
+                    <li id="active"><a>Sign up </a></li>
+                </ul>
+            </nav>
+            <img alt="cemmercelogo" src="logo.jpg" width="47" height="26"/>
+            <h1 id="logotext" class="boldbluetext">Cemmerce</h1>
+            <h2 id="slogan">It's money time</h2>
+        </div>
+    </div>
+    <div id="secondheaderdiv" class="gb">
+        <h2>Sign up to cemmerce - It's money time!</h2>
+    </div>
+</header>
+<section>
+    <div id="section">
+    <div id=wrapperdiv>
+        <div id="maindiv">
+            <h2 class="boldbluetext">Task Management</h2>
+            <div id="tableDiv">
+               
+                <label for="filterBy">Choose an owner to filter by:</label>
+                <select id="filterBy"></select>
+                
+                <button id="showAll" class="tableButton" hidden="hidden">Show all records</button>
+                <table id="tasksTable"></table>
+                <button class="tableButton" id="btnAdd">Add a new task</button>
+            </div>
+            <div hidden="hidden" id="showDiv">
+                <form id="showForm"></form>
+                <button class="tableButton" id="backShow">Back</button>
+            </div>
+            <div hidden="hidden" id="editDiv">
+                <form id="editForm" action="#">
+                </form>
+                <button class="tableButton" id="backEdit">Back</button>
+                <button type="submit" class="tableButton" id="updateEdit">Update</button>
+            </div>
+            <div hidden="hidden" id="addDiv" >
+                <form id="addForm" action="#">
+                </form>
+                <button class="tableButton" id="backAdd">Back</button>
+                <button type="submit" class="tableButton" id="subAdd">Add</button>
+            </div>
+        </div>
+    </div>
+    <div id="sidebar">
+        <div id="advdiv" class="gb">
+            <p>Start making revenue</p>
+            <p id="endofadv">from your content!</p>
+            <img alt="" src="adv.png" width="94" height="110"/>
+        </div>
+        <div id="safediv">
+            <h3  class="sideh3 boldbluetext">Your information is safe!</h3>
+            <img alt="latch" src="latch.png" width="42" height="89"/>
+            <p class="sidep">We will not path on your personal details to any third party.</p>
+            <div class="sidediv">
+                <a class="sidea">Read our privacy policy</a>
+            </div>
+        </div>
+        <div id="helpdiv">
+            <h3 class="boldbluetext sideh3">Need any help?</h3>
+            <p class="sidep">Don't hesitate to contuct us.</p>
+            <div class="sidediv">
+                <a class="sidea">Contact us now</a>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<footer>
+    <div id="footerdiv" class="gb">
+        <nav>
+            <ul id="footernav">
+                <li>
+                    <a>About us</a>
+                    <ul>
+                        <li><a>Company overview</a></li>
+                        <li><a>News</a></li>
+                        <li><a>Affiliate program</a></li>
+                    </ul>
+                </li>
+                    <li>
+                    <a>Publishers</a>
+                    <ul>
+                        <li><a>We sell, you get money</a></li>
+                        <li><a>Managing many sites in one place</a></li>
+                        <li><a>Check your site potrntial</a></li>
+                    </ul>
+                </li>
+                    <li>
+                    <a>Bloggers</a>
+                    <ul>
+                        <li><a>Cemmeres benefites</a></li>
+                        <li><a>Make even more money!</a></li>
+                        <li><a>Testimonials</a></li>
+                        <li><a>Statistics</a></li>
+                        <li><a>Success stories</a></li>
+                        <li><a>Terms of use</a></li>
+                        <li><a>Sign up</a></li>
+                    </ul>
+                </li>
+                    <li>
+                    <a>How it works</a>
+                    <ul>
+                        <li><a>In-text advertisment</a></li>
+                        <li><a>Easy integration</a></li>
+                        <li><a>Managing tools</a></li>
+                        <li><a>Terms of use</a></li>
+                    </ul>
+                </li>
+                    <li>
+                    <a>Our tools</a>
+                    <ul>
+                        <li><a>Key words</a></li>
+                        <li><a>Buy button</a></li>
+                        <li><a>Banner</a></li>
+                    </ul>
+                </li>
+                    <li>
+                    <a>Support</a>
+                    <ul>
+                        <li><a>FAQ</a></li>
+                        <li><a>Tutorials</a></li>
+                        <li><a>Publisher help center</a></li>
+                    </ul>
+                </li>
+                    <li>
+                    <a>Contact us</a>
+                    <ul>
+                        <li><a>Marketing</a></li>
+                        <li><a>Technical support</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div id="lastdiv">
+        <div>
+        <p id="almostlastp">&#169; copyright 2011 Cemmerce. all rights reserved</p>
+        <nav>
+            <ul>
+                <li id="needsaborder"><a>Terms of use</a></li>
+                <li><a>Privacy policy</a></li>
+            </ul>
+        </nav>
+        <p id="lastp">UX &amp; Design by <span><img alt="author's logo" src="authorlogo.jpg" width="17" height="18"/></span> INKOD <span id="dot">&middot;</span> HIPERA</p>
+    </div>
+    </div>
+</footer>
+</body>
+</html>
